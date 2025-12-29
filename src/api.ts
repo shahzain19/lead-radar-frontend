@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:3001';
+const API_BASE_URL = 'https://lead-radar-backend.vercel.app';
 
 export interface Maker {
     name: string;
