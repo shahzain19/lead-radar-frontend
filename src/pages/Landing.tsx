@@ -14,29 +14,6 @@ export default function Landing() {
         },
     };
 
-    const itemVariants = {
-        hidden: { y: 20, opacity: 0 },
-        visible: {
-            y: 0,
-            opacity: 1,
-            transition: {
-                duration: 0.6,
-                ease: "easeOut",
-            },
-        },
-    };
-
-    const floatingVariants = {
-        animate: {
-            y: [-10, 10, -10],
-            transition: {
-                duration: 3,
-                repeat: Infinity,
-                ease: "easeInOut",
-            },
-        },
-    };
-
     return (
         <div className="min-h-screen gradient-bg">
             {/* Animated background elements */}
